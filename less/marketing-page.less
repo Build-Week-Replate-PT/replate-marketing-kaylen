@@ -30,4 +30,32 @@ body {
             }
         }
     }
+
+    .middle-section {
+        .flex-class(row, space-evenly, center);
+        text-align: center;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        margin: 0px 20px;
+
+        .earth, .burger, .phone {
+            margin: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 1.75vw;
+            padding-top: 20px;
+        }
+
+        .vl {
+            width: 2px;
+            height: 125px;
+            background-color: @lgreen;
+        }
+    }
 }
