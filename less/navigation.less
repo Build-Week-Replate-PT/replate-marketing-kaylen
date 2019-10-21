@@ -1,21 +1,25 @@
 .nav-bar {
     .flex-class(row, space-between, center);
-    padding: 15px 120px;
+    flex-wrap: wrap;
+    padding: 15px 70px 5px 70px;
 
     .logo {
-        .flex-class(row, space-evenly, center);
+        .flex-class(row, center, center);
         flex-wrap: nowrap;
 
         h1 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             padding: 10px;
         }
     }
 
     nav {
+        .flex-class(row, center, center);
+        flex-wrap: nowrap;
         a {
             text-decoration: none;
-            padding: 30px;
+            padding-left: 30px;
+            color: @black;
         }
         .button {
             .button-style(none, .85rem, @black, center);
