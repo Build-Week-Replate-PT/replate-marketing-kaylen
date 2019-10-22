@@ -179,12 +179,12 @@ body {
 }
 .home header .banner h2 {
   position: absolute;
-  top: 70%;
-  bottom: 30%;
+  top: 60%;
+  bottom: 40%;
   left: 20%;
   right: 20%;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 1.25rem;
 }
 .home .middle-section {
   display: flex;
@@ -195,6 +195,8 @@ body {
   flex-wrap: nowrap;
   align-items: baseline;
   margin: 0px 20px;
+  border-bottom: 2px solid #ADCFB1;
+  padding-bottom: 20px;
 }
 .home .middle-section .earth,
 .home .middle-section .burger,
@@ -206,11 +208,31 @@ body {
   height: auto;
 }
 .home .middle-section h2 {
-  font-size: 1.75vw;
+  font-size: 1rem;
   padding-top: 20px;
 }
 .home .middle-section .vl {
   width: 2px;
   height: 125px;
   background-color: #ADCFB1;
+}
+.home .bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0px 100px;
+}
+.home .bottom-section h3 {
+  font-size: 1.5rem;
+  padding: 40px 30px 40px 30px;
+}
+.home .bottom-section p {
+  padding: 0px 60px;
+  line-height: 25px;
+  font-size: 1rem;
+}
+.home .bottom-section img {
+  align-self: center;
+  margin: 20px 0px;
 }
