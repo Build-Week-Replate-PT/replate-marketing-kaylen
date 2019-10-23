@@ -273,3 +273,41 @@ body {
   font-size: 0.75rem;
   padding: 5px 0px;
 }
+.home .form-container {
+  display: block;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 40px 40px;
+}
+.home .form-container form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.home .form-container input[type=text],
+.home .form-container input[type=email],
+.home .form-container select,
+.home .form-container textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.home .form-container input[type=submit] {
+  background-color: #2D914C;
+  color: #F7FBF9;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.home .form-container input[type=submit]:hover {
+  background-color: rgba(173, 207, 177, 0.5);
+  color: #0F2D2F;
+}
