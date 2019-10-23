@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/f434e997d0.js" crossorigin="anonymous"></script>
     <link href="css/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
     <title>Replate</title>
 </head>
     <body>
@@ -16,16 +18,22 @@
             <header>   
                 <!-- NAV BAR -->
                 <div class="nav-bar">
-                    <div class="logo">
-                        <a href="index.html"><img src="img/replate_logo.svg" alt="Replate Logo"></a>
-                        <a href="index.html"><h1>Replate</h1></a>
+                        <div class="logo">
+                            <a href="index.html"><img src="img/replate_logo.svg" alt="Replate Logo"></a>
+                            <a href="index.html"><h1>Replate</h1></a>
+                        </div>
+                        <div class="navigation">
+                            <nav id="nav">
+                                <button class="button"><a href="businesses.html">For Businesses</a></button>
+                                <button class="button"><a href="nonprofits.html">For Non-Profits</a></button>
+                                <button class="button"><a href="#">Login</a></button>
+                            </nav>
+    
+                            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                                <img src="img/menu-button.svg" class="menu-button" alt="hamburger menu icon">
+                            </a>
+                        </div>
                     </div>
-                    <nav>
-                        <button class="button"><a href="businesses.html">For Businesses</a></button>
-                        <button class="button"><a href="nonprofits.html">For Non-Profits</a></button>
-                        <button class="button"><a href="#">Login</a></button>
-                    </nav>
-                </div>
 
                 <!-- HEADER IMAGE-->
                 <div class="banner">
@@ -93,6 +101,7 @@
             <footer>
                 <a href="contact.html">Contact Us</a>
                 <a href="team.html">Meet the Team</a>
+                <div class="icon">Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
             </footer>
 
 

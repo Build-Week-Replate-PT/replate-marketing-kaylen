@@ -2,6 +2,12 @@
     .flex-class(row, space-between, center);
     flex-wrap: wrap;
     padding: 15px 70px 5px 70px;
+    overflow: hidden;
+    position: relative;
+
+    .hamburger img {
+        display: none;
+    }
 
     .logo {
         .flex-class(row, center, center);
@@ -33,9 +39,45 @@
         @media @tablet {
             margin: 10px 0px;
         }
+
+        @media @mobile {
+            display: none;
+            background-color: @white;
+
+            a {
+                color: @black;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 1rem;
+                display: block;
+                background-color: @white;
+            }
+        }
     }
+
 
     @media @tablet {
         .flex-class(column, center, center);
+    }
+
+    @media @mobile {
+        .flex-class(row, space-between, center);
+
+        .hamburger {
+            color: @white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 1rem;
+            display: block;
+        }
+
+        .hamburger img {
+            width: 20px;
+            height: 20px;
+            display: block;
+            position: absolute;
+            right: 20%;
+            left: 80%;
+        }
     }
 }
