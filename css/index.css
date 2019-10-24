@@ -389,23 +389,28 @@ body {
 .home .form-container {
   display: block;
   text-align: center;
-  width: 100%;
-  background-color: #ffffff;
-  margin: 40px 40px;
+  background-color: whitesmoke;
+  margin: 40px 90px;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
 }
 .home .form-container form {
-  display: inline-block;
+  display: block;
   text-align: left;
 }
 .home .form-container input[type=text],
 .home .form-container input[type=email],
 .home .form-container select,
 .home .form-container textarea {
-  width: 100%;
+  width: 80%;
   padding: 12px;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
 }
 .home .form-container input[type=submit] {
   background-color: #2D914C;
@@ -418,4 +423,8 @@ body {
 .home .form-container input[type=submit]:hover {
   background-color: rgba(173, 207, 177, 0.5);
   color: #0F2D2F;
+}
+.home .form-container label {
+  margin-right: 10px;
+  margin-left: 0px;
 }

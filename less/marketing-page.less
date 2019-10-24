@@ -153,22 +153,27 @@ body {
     .form-container {
         display: block;
         text-align: center;
-        width: 100%;
-        background-color: #ffffff;
-        margin: 40px 40px;
+        background-color: whitesmoke;
+        margin: 40px 90px;
+        padding: 20px;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
         
         form {
-            display: inline-block;
+            display: block;
             text-align: left;
         }
 
 
         input[type=text], input[type=email], select, textarea {
-            width: 100%;
+            width: 80%;
             padding: 12px;
             margin-top: 6px;
             margin-bottom: 16px;
             resize: vertical;
+            background-color: @white;
+            border: 1px solid @white;
+            border-radius: 5px;
         }
 
         input[type=submit] {
@@ -183,6 +188,11 @@ body {
         input[type=submit]:hover {
             background-color: @lgreen;
             color: @black;
+        }
+
+        label {
+            margin-right: 10px;
+            margin-left: 0px;
         }
     }
 
