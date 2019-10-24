@@ -3,7 +3,10 @@
     flex-wrap: wrap;
     padding: 15px 70px 5px 70px;
     overflow: hidden;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background: white;
 
     .hamburger img {
         display: none;
@@ -15,6 +18,7 @@
 
         h1 {
             font-size: 1.25rem;
+            font-weight: 500;
             padding: 10px;
         }
 
@@ -27,13 +31,13 @@
     nav {
         .flex-class(row, center, center);
         flex-wrap: nowrap;
+
+
         a {
             text-decoration: none;
             padding-left: 30px;
             color: @black;
-        }
-        .button {
-            .button-style(none, .85rem, @black, center);
+            font-size: .85rem;
         }
 
         @media @tablet {
