@@ -249,7 +249,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .home header .banner {
-  background-image: url(/img/desktop_banner.svg);
+  background-image: url(../img/desktop_banner.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
