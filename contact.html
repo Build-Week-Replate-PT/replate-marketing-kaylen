@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/f434e997d0.js" crossorigin="anonymous"></script>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Replate</title>
+</head>
+    <body>
+        <div class="home">
+
+
+            <!-- HEADER -->
+            <header>   
+                <!-- NAV BAR -->
+                <div class="nav-bar">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/replate_logo.svg" alt="Replate Logo"></a>
+                            <a href="index.html"><h1>Replate</h1></a>
+                        </div>
+                        <div class="navigation">
+                            <nav id="nav">
+                                <a href="businesses.html">For Businesses</a>
+                                <a href="nonprofits.html">For Non-Profits</a>
+                                <a href="https://5db11add02583f7a22cd2d91--replate-buildweek.netlify.com/signup">Sign Up</a>
+                                <a href="https://5db11add02583f7a22cd2d91--replate-buildweek.netlify.com/login">Login</a>
+                            </nav>
+    
+                            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                                <img src="img/menu-button.svg" class="menu-button" alt="hamburger menu icon">
+                            </a>
+                        </div>
+                    </div>
+                <!-- HEADER IMAGE-->
+                <div class="banner">
+                    <h2 class="header-text">Have a question or concern? <br> Let us know.</h2>
+                </div>
+            </header>
+
+            <!-- FORM SECTION -->
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <div class="name">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="user-name">
+                    </div>
+                    
+                    <div class="email">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="user-email">
+                    </div>
+
+                    <div class="dropdown">
+                        <label for="subject">Subject: </label>
+                        <select id="subject" name="subject">
+                            <option value="Sign-up">Sign up question/issue</option>
+                            <option value="technical">Technical difficulties</option>
+                            <option value="other">Other</option>
+                    </select>
+                    </div>
+
+                    <div class="text-area">
+                        <label for="text">Send us a message:</label>
+                        <textarea id="text" name="text" style="height: 200px"></textarea>
+                    </div>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+
+            <!-- FOOTER -->
+            <footer>
+                <a href="contact.html">Contact Us</a>
+                <a href="team.html">Meet the Team</a>
+                <div class="icon">Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+            </footer>
+
+
+        </div>
+    </body>
+</html>
